@@ -1,0 +1,23 @@
+const express = require('express')
+/* const mongoose = require('mongoose') */
+const animalSchema = require('../modelos/animales.js')
+
+const router = express.Router()
+
+
+router.get('/animales', (req, res)=>{
+    animalSchema.find()
+    .then((data)=>
+    res.json(data))
+    .catch((error)=>
+    res.json({error: 'No se encontro la mascota'}))
+})
+
+router.post('/animales', (req, res)=>{
+    const aml = animalSchema(req.body);
+    aml.save()
+    .then((data)=>
+    res.json(data))
+    .catch((error)=>
+    res.json({error: 'No se creo la mascota'}))
+})

@@ -1,0 +1,45 @@
+.buttonCard {
+  backdrop-filter: blur(10px);
+  border: 0.5px;
+  color: white;
+  padding: 7px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.Titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fcf6f6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-justify: center;
+  outline: none;
+}
+
+.Subtitulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight:normal;
+  color: #fefafa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.bodyCard {
+  min-height: 100px;
+  backdrop-filter: blur(10px);
+  color: opacity;
+  border-radius: 10px;
+  box-shadow: 08px -15px 10px #520202ac,
+  -15px 08px 10px #090909ac;
+  
+  
+}
+

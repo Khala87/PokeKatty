@@ -1,0 +1,64 @@
+
+.buttonDetail {
+  background-color: black;
+  color: white;
+  padding: 7px 40px;
+  margin: 20px 0;
+  border: 1px solid white;
+  border-radius: 7px;
+  justify-content: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 15px;
+  text-align:right;
+}
+
+.body3 {
+  background-image: url(https://images7.alphacoders.com/661/661986.jpg);
+  height: 170vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.infoDetail {
+/*   display: flex;
+  flex-direction: column; */
+  font-size: 15px;
+  color: white;
+  padding: 0;
+  min-height: 10px;
+  backdrop-filter: blur(10px);
+  width: -50px;
+  color: opacity;
+  border-radius: 10px;
+  box-shadow: 08px -15px 10px #520202ac,
+  -15px 08px 10px #090909ac;
+  
+}
+
+.nombreDetail {
+ display: flex;
+  flex-direction: column; 
+  font-size: 30px;
+  color: white;
+  padding: 0px 80px;
+  backdrop-filter: blur(10px);
+  width: -50px;
+  color: opacity;
+  border-radius: 10px;
+  box-shadow: 08px 15px 10px #d1ce1eac,
+  15px 08px 10px #090909ac;
+}
+
+.typesDetail {
+ display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: white;
+   backdrop-filter: blur(10px);
+  width: -50px;
+  color: opacity;
+  border-radius: 10px;
+  
+}

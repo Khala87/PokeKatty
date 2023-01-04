@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,500;1,700&display=swap");
+
+.buttonSearchBar {
+  padding: 0.8%;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(219, 199, 21);
+  background-color: #c10c0c;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgb(219, 199, 21);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  right: 30px;
+  top: -150px; 
+  overflow:hidden;
+}
+
+
+.barras2 {
+  background-color: #eee;
+  border: none;
+  padding: 0.8%;
+  font-size: 15px;
+  border-radius: 45px;
+  color: lightcoral;
+  box-shadow: 0px 8px 05px rgb(219, 199, 21);
+  cursor: pointer;
+  position: relative;
+  left: 0.5px;
+  top: -150px; 
+  overflow:hidden;
+  }
+  
+ 
+ .input-wrapper input:focus {
+  outline-color: lightcoral;
+ }
